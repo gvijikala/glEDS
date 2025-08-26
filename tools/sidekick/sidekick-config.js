@@ -1,6 +1,6 @@
 export const config = {
-  host: 'https://author-p115973-e1140754.adobeaemcloud.com', //'https://author-<your-program-id>-<your-env-id>.adobeaemcloud.com', // Replace this with your AEM Author URL
-  project: 'edge-delivery-service', // Optional
+  host: 'https://author-p115973-e1140754.adobeaemcloud.com', 
+  project: 'edge-delivery-service', 
 
   buttons: [
     {
