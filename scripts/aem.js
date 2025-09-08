@@ -618,18 +618,6 @@ async function loadFooter(footer) {
 }
 
 /**
- * Loads a block named 'carousel' into carousel
- * @param carousel carousel element
- * @returns {Promise}
- */
-async function loadCarousel(carousel) {
-  const carouselBlock = buildBlock('carousel', '');
-  footer.append(carouselBlock);
-  decorateBlock(carouselBlock);
-  return loadBlock(carouselBlock);
-}
-
-/**
  * Wait for Image.
  * @param {Element} section section element
  */
