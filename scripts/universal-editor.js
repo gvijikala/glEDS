@@ -1,7 +1,6 @@
-// add delayed functionality here
 // universal-editor.js
 
-(function() {
+(function () {
   // Wait until DOM content is loaded
   document.addEventListener('DOMContentLoaded', () => {
     // 1. Load the Universal Editor CORS library
@@ -12,7 +11,6 @@
 
     // 2. Insert meta tags about your AEM connection and Universal Editor service
     // If not already in your HTML
-
     function ensureMeta(name, content) {
       let m = document.querySelector(`meta[name="${name}"]`);
       if (!m) {
@@ -30,13 +28,13 @@
 
     // 3. Instrument editable elements
     // Example: make all <h1> editable
-    document.querySelectorAll('h1').forEach(el => {
+    document.querySelectorAll('h1').forEach((el) => {
       el.setAttribute('data-aue-resource', 'urn:aemconnection:/path/to/page/jcr:content');
       el.setAttribute('data-aue-type', 'text');
       el.setAttribute('data-aue-prop', 'jcr:title');
       el.setAttribute('data-aue-label', 'Title');
     });
 
-    // More instrumentation as needed...
+    // Add more instrumentation as needed...
   });
 })();
