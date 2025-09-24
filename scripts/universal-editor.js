@@ -25,4 +25,4 @@
       el.setAttribute('data-aue-label', 'Title');
     });
   });
-})();
+}());
