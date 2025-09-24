@@ -1,0 +1,8 @@
+{
+  "production": {
+    "host": "https://main--gleds--gvijikala.aem.page"
+  },
+  "preview": {
+    "host": "https://local--gleds--gvijikala.aem.page"
+  }  
+}
