@@ -1,6 +1,6 @@
 // universal-editor.js
 
-(function () {
+(function initUniversalEditor() {
   document.addEventListener('DOMContentLoaded', () => {
     const corsScript = document.createElement('script');
     corsScript.src = 'https://universal-editor-service.adobe.io/cors.js';
